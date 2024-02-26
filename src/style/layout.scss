@@ -1,0 +1,25 @@
+$charcoal: #36454F;
+$cadmium:  #097969;
+$cardinal: #C41E3A;
+$electric: #7DF9FF;
+body {
+  background-color: $charcoal;
+}
+/* Layout Section  */
+.layout-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 100%;
+  width: 25%;
+  border: 2px solid $cardinal; 
+  border-radius: .2rem;
+}
+.layout-heading {
+  font-size: 8vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  color: $cardinal;
+
+}

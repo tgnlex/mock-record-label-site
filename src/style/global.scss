@@ -1,0 +1,22 @@
+$charcoal: #36454F;
+$cadmium:  #097969;
+$cardinal: #C41E3A;
+$electric: #7DF9FF;
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+
+.link {
+  text-decoration: none;
+  
+}
+path {
+  fill: transparent;
+}
+
+text {
+  fill: $cardinal;
+}

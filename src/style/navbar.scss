@@ -1,0 +1,65 @@
+// Main Colors
+$charcoal: #36454F;
+$cadmium:  #097969;
+$cardinal: #C41E3A;
+$electric: #7DF9FF;
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: $charcoal;
+  border: 3px solid $cadmium;
+
+}
+
+#brand-container {
+  display: flex;
+}
+#brand-link {
+  text-decoration: none;
+}
+#brand {
+ font-size: 22px;
+ text-decoration: none;
+ color: $cardinal;
+ border: 2px solid $cardinal;
+}
+
+#nav-link {
+  text-decoration: none;
+}
+
+.nav-item {
+   background-color: $cadmium;
+   font-size: 14px;
+   border: 1px solid black;
+   border-radius: .4rem;
+   padding: 2px;
+}
+.dropdown {
+  background-color: $cadmium;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: .4rem;
+  padding: 2px;
+}
+
+#search-form {
+  display: flex;
+  flex-direction: row; 
+  height: 25px;
+}
+#search-bar {
+  border: 1px solid $cadmium;
+  border-radius: .8rem;
+  width: 175px;
+  margin-right: 5px;
+}
+#search-btn {
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+  margin-right: 5px;
+}

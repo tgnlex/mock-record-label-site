@@ -1,0 +1,52 @@
+$charcoal: #36454F;
+$cadmium:  #097969;
+$cardinal: #C41E3A;
+$electric: #7DF9FF;
+.container {
+  display: flex;
+  place-items: center;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-msg {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.landing-text-main {
+  color: $cardinal;
+}
+.landing-text-secondary {
+  color: $cardinal;
+}
+
+
+.landing-btn {
+    position: relative;
+    display: block;
+    margin-top: 12.5px;
+    height: 35px;
+    width: 100px;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, $electric, #44ce7b);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+  }
+ 
+  .landing-btn:hover {
+      animation: animate 0.4s linear infinite;
+  }
+  @keyframes animate {
+      100%{
+          filter: hue-rotate(-360deg);
+      }
+  }
